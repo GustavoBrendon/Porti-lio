@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Button for Top */
+
+
+#bnt {
+    position: fixed;
+    right: 90px;
+    bottom: 60px;
+}
+
+#bnt {
+    --bg: #52106e;
+    --text-color: #fff;
+    position: fixed;
+    width: 150px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #52106e 0px 7px 2px, #000 0px 8px 5px;
+  }
+  
+  #bnt:hover {
+    opacity: 1;
+  }
+
+  #bnt:active {
+    box-shadow: #2f0441 0px 3px 2px,#000 0px 3px 5px;
+  }
+
+/* NavBar */
+
+#nav-bar {
+    width: 100%;
+    height: auto;
+}
+
+.nav-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 32px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container h1 {
+    font-size: xx-large;
+}
+
+#itens {
+    display: flex;
+    gap: 50px;
+    text-shadow: 0px 0px 1px black;
+}
+
+#itens a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+
+/* Header */
+
+
+#header {
+    width: 100%;
+    height: auto;
+}
+
+.header-container {
+    display: flex;
+}
+
+#header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#header-text{
+    width: 50%;
+    margin: 32px;
+}
+
+#header-text span {
+    color: #57057b;
+    text-shadow: 1px 1px 1px #9400D3;
+}
+
+#header-text h2 {
+    text-transform: uppercase;
+}
+
+#header-text p {
+    margin: 24px auto;
+    text-align: justify;
+}
+
+#foto-gustavo {
+    margin: 16px 0 16px 250px;
+    width: 15%;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 300px;
+}
+
+
+/* Buttons Header */
+
+#bnts-container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 100px;
+}
+
+#currículo {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.523);
+    transition: background 1000ms ease;
+    letter-spacing: 2px;
+
+}
+
+#linkedin {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.523);
+    transition: background 1000ms ease;
+    letter-spacing: 2px;
+}
+
+#github {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.523);
+    transition: background 1000ms ease;
+    letter-spacing: 2px;
+}
+
+#currículo:hover {
+    background-color: rgb(30, 28, 162);
+    color: #eee;
+}
+
+#linkedin:hover {
+    background-color: rgb(17, 141, 218);
+    color: #eee;
+}
+
+#github:hover {
+    background-color: black;
+    color: #eee;
+}
+
+/* Line */
+
+#line {
+    width: 100%;
+    height: auto;
+}
+
+.line-container {
+    margin: 32px auto;
+    width: 700px;
+    height: 2px;
+    background-color: purple;
+}
+
+
+/* Projects */
+
+#projects {
+    width: 100%;
+    display: flex;
+}
+
+#P-H2 {
+    width: 20%;
+    margin: auto auto auto 280px;
+}
+
+#first {
+    flex-direction: column;
+    width: 35%;
+    margin: 32px 40px 0 280px;
+}
+
+#first h3 {
+    width: 100%;
+    text-align: right;
+    margin: 0 auto 16px auto;
+}
+
+#first p {
+    text-align: justify;
+}
+
+#first-img img {
+    width: 320px;
+    margin: 100px 0 0 0 ;
+    border: 1px 1px 1px black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.529);
+    border-radius: 16px;
+    transition: width 0.5s ease-in-out;
+}
+
+#projects2 {
+    width: 100%;
+    display: flex;
+}
+
+
+#second {
+    flex-direction: column;
+    width: 35%;
+    margin: 32px 40px 0 280px;
+}
+
+#second h3 {
+    width: 100%;
+    text-align: right;
+    margin: 0 auto 16px auto;
+}
+
+#second p {
+    text-align: justify;
+}
+
+#second-img img {
+    width: 320px;
+    margin: 100px 0 0 0 ;
+    border: 1px 1px 1px black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.529);
+    border-radius: 16px;
+    transition: width 0.5s ease-in-out;
+}
+
+#second a {
+    color: #9400D3;
+    text-shadow: 1px 1px 1px #9400D3;
+    text-decoration: none;
+}
+
+#second h5 {
+    margin: 16px auto auto auto;
+}
+
+#a {
+    height: 100vh;
+}
+
+/* Services */
+
+#S-H2 {
+    width: 20%;
+    margin: auto auto auto 280px;
+}
+
+#services {
+    width: 100%;
+    margin: auto;
+}
+
+.services-container {
+    width: 50%;
+    margin: 32px auto auto 300px;
+}
+
+.services-container li {
+    font-size: large;
+    padding: 8px;
+    list-style: none;
+}
+
+#services-items {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.fa-solid {
+    color: 	black;
+    transition: color 500ms ease;
+    font-size: x-large;
+}
+
+.fa-solid:hover{
+    cursor: pointer;
+    color: #9400D3;
+}
+
+/* Contact */
+
+#contact {
+    width: 100%;
+    margin: auto;
+    background: #000;
+}
+
+.contact-container {
+    display: flex;
+    width: 40%;
+    color: white;
+    height: auto;
+    margin: 32px auto;
+}
+
+.fa-mobile-screen-button {
+    color: white;
+}
+
+.contact-container h5 {
+    margin: auto;
+    text-align: justify;
+}
+#contact-links p {
+    width: 100%;
+    font-size: 15px;
+    margin: 0 auto auto 64px;
+    padding: 3px;
+}
+
+#contact-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-envelope {
+    font-size: x-large;
+}
+
+.fa-mobile-screen-button {
+    font-size: x-large;
+}
+
+.fa-linkedin {
+    font-size: x-large;
+}
+
+.fa-square-github {
+    font-size: x-large;
+}
+
+.fa-instagram {
+    font-size: x-large;
+}
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-container  {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    #nav-bar {
+        width: 100%;
+        margin: auto;
+        height: 100px;
+    }
+
+    .nav-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 8px;
+    }
+
+    #itens {
+        display: none;
+    }
+
+    .nav-container h1 {
+        font-size: xx-large;
+        text-align: center;
+        margin: auto;
+    }
+
+   #header {
+    width: 100%;
+    margin: auto;
+   }
+
+   .header-container {
+    width: 100%;
+    flex-direction: column;
+   }
+
+   #foto-gustavo {
+    width: auto;
+    margin: auto;
+   }
+
+   #header-text{
+    width: 80%;
+    margin: auto;
+   }
+
+   #header-text h2 {
+    margin: 16px auto;
+    text-align: center;
+   }
+
+   #header-text p {
+    width: 100%;
+    margin: 32px auto;
+   }
+
+   #bnts-container {
+    width: 80%;
+    gap: 8px;
+   }
+
+   #line {
+    width: 100%;
+    margin: auto;
+   }
+
+   .line-container {
+    width: 80%;
+   }
+
+   #P-H2 {
+    width: 80%;
+    margin: 0;
+    text-align: center;
+   }
+
+   #projects {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   }
+
+   #first h3 {
+    margin: 8px auto;
+   }
+
+   #first {
+    width: 80%;
+    margin: auto;
+   }
+
+   #first-img img {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 32px auto;
+   }
+
+   #projects2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   }
+
+   #second h3 {
+    margin: 8px auto;
+   }
+
+   #second {
+    width: 80%;
+    margin: auto;
+   }
+
+   #second-img img {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 32px auto;
+   }
+
+   #S-H2 {
+    width: 80%;
+    margin: 0;
+    text-align: center;
+   }
+
+   #services {
+    width: 100%;
+    margin: auto;
+   }
+
+   .services-container {
+    width: 80%;
+    margin: auto;
+   }
+
+   #contact {
+    width: 100%;
+    margin: auto;
+   }
+
+   .contact-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    margin: 32px;
+   }
+
+   #contact-links p {
+    font-size: small;
+    margin: 8px;
+   }
+
+   #bnt {
+    display: none;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #nav-bar {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .header-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #foto-gustavo {
+        margin: auto;
+        width: 20%;
+        height: auto;
+    }
+
+    #header-text {
+        width: 70%;
+        margin: 32px auto;
+    }
+
+    #P-H2 {
+        width: 70%;
+        margin: auto;
+    }
+
+    #projects {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #first {
+        width: 70%;
+        margin: 32px auto;
+    }
+
+    #first-img img {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    #projects2 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #second {
+        width: 70%;
+        margin: 32px auto;
+    }
+
+    #second-img img {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+
+    #header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    #foto-gustavo {
+        width: 20%;
+        margin: auto;
+    }
+
+    #header-text {
+        width: 70%;
+        margin: 32px auto 16px;
+    }
+
+    #P-H2 {
+        width: 70%;
+        margin: auto;
+    }
+
+    #projects {
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #first {
+        width: 70%;
+        margin: auto;
+    }
+
+    #first-img img {
+        display: flex;
+        margin: 32px auto;
+        justify-content: center;
+    }
+
+    #projects2 {
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #second {
+        width: 70%;
+        margin: auto;
+    }
+
+    #second-img img {
+        display: flex;
+        margin: 32px auto;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2560px){
+
+    body {
+        font-size: xx-large;
+    }
+
+    #header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    #foto-gustavo {
+        width: 20%;
+        height: auto;
+        margin: auto;
+    }
+
+    #header-text {
+        width: 70%;
+        margin: 32px auto 16px;
+    }
+
+    #P-H2 {
+        width: 70%;
+        margin: auto;
+    }
+
+    #projects {
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #first {
+        width: 70%;
+        margin: auto;
+    }
+
+    #first-img img {
+        display: flex;
+        margin: 32px auto;
+        justify-content: center;
+    }
+
+    #projects2 {
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #second {
+        width: 70%;
+        margin: auto;
+    }
+
+    #second-img img {
+        display: flex;
+        margin: 32px auto;
+        justify-content: center;
+    }
+
+    
+    #S-H2 {
+        width: 70%;
+        margin: auto;
+    }
+
+    #services {
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .services-container {
+        margin: 32px auto auto 400px;
+    }
+
+    .services-container li {
+        font-size: xx-large;
+    }
+    
+    #contact {
+        width: 100%;
+        margin: auto;
+    }
+
+    #contact-links p {
+        font-size: xx-large;
+    }
+
+}
+
+
+
