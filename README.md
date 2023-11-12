@@ -1,4 +1,4 @@
-<h1>Porifólio</h1>
+<h1>Portifólio</h1>
 <h5>Totalmente Desenvolvido Por Gustavo Brendon</h5>
 
 <p>Seja bem-vindo ao meu portfólio, uma representação interativa e visualmente envolvente de quem eu sou, do que eu faço e do que sou capaz.
