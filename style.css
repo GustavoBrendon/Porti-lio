@@ -29,6 +29,7 @@ body {
 }
 
 #bnt {
+    cursor: pointer;
     --bg: #52106e;
     --text-color: #fff;
     position: fixed;
