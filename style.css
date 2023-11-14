@@ -19,6 +19,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* Scroll Reveal */
+
+.reveal-header, .first-reveal, .first-img-reveal, .second-reveal, .second-img-reveal, .services-reveal {
+    visibility: hidden;
+}
+
 /* Button for Top */
 
 

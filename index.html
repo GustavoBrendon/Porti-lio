@@ -26,7 +26,7 @@
 
     <!-- Header -->
     <header id="header">    
-        <div class="header-container">
+        <div class="header-container reveal-header">
                 <img src="./Eu.jpg" alt="Imagem do Gustavo Brendon" id="foto-gustavo">
             <div id="header-text">
                     <h2>Desenvolvedor Júnior</h2>
@@ -46,45 +46,47 @@
         <div class="line-container"></div>
     </section>
 
-    <!-- Projects H2 -->
+    <!-- Tittle Projects -->
     <section id="P-H2">
         <h2>Projetos</h2>
     </section>
 
-    <!-- Projects -->
+    <!-- Projects 1 -->
     <section id="projects">
-        <div id="first">
+        <div id="first" class="first-reveal">
             <h3>Meu Primeiro Portifólio</h3>
             <p>Desenvolvi meu primeiro portfólio utilizando <strong>HTML</strong> e <strong>CSS</strong>, destacando minhas habilidades iniciais em desenvolvimento web. O projeto inclui uma barra de navegação que simplifica a exploração do meu trabalho e leva diretamente aos diversos componentes. Em uma seção especial, apresento um texto pessoal que revela mais sobre quem sou e o que me motiva no mundo do desenvolvimento. O código-fonte do projeto está disponível no meu GitHub, proporcionando uma visão mais aprofundada da estrutura e estilo. Além disso, para manter a conexão, disponibilizo links das minhas redes sociais, convidando a todos para acompanhar e participar da minha jornada no desenvolvimento web.</p>
         </div>
-        <div id="first-img">
+        <div id="first-img" class="first-img-reveal">
             <a href="https://gulinbro.github.io/MeuPrimeiroPortifolio/" target="_blank"><img src="firts-project.png" alt="Imagem do Primeiro Portifólio" id="first-img2" onmouseover="ampliarImagem()" onmouseout="restaurarTamanhoOriginal()"></a>
         </div>
     </section>
 
+    <!-- Projects 2 -->
     <section id="projects2">
-        <div id="second">
+        <div id="second" class="second-reveal">
             <h3 id="Tittle-SecondProject"> A Vila Do Pirata </h3>
             <p>Projeto desenvolvido para empresa Cinco Estrelas Transportes e Turismo LTDA, da sua nova pousada "A Vila Do Pirata", localizada em Prado, BA, Brasil. Desenvolvido com tecnologias modernas como <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, o site é responsivo para acesso em qualquer dispositivo. Principais funcionalidades incluem informações detalhadas sobre a pousada, formulário de contato para comunicação direta, e dados de contato direto, como telefone e redes sociais. O projeto foi colaborativo, garantindo clareza e concisão nas informações. Acesse Online <span><a href="https://pousadaviladopirata.com.br/" target="_blank">Aqui.</a></span></p>
             <h5>Todos Os Meus Projetos São Hospedados No <a href="https://github.com/GulinBro" target="_blank">GitHub</a>.</h5>
         </div>
-        <div id="second-img">
+        <div id="second-img" class="second-img-reveal">
             <a href="https://pousadaviladopirata.com.br/" target="_blank"><img src="second-project.png" alt="Imagem do Primeiro Portifólio" id="second-img2" onmouseover="ampliarImagem2()" onmouseout="restaurarTamanhoOriginal2()"></a>
         </div>
     </section>
     
+    <!-- Line -->
     <section id="line">
         <div class="line-container"></div>
     </section>
 
+    <!-- Tittle Services -->
     <section id="S-H2">
         <h2>Serviços</h2>
     </section>
 
+    <!-- Services -->
     <section id="services">
-        <header class="services-header">
-        </header>
-        <div class="services-container">
+        <div class="services-container services-reveal">
             <ul id="services-items">
                 <li><i class="fa-solid fa-globe"></i> Desenvolvimento Web  </li>
                 <li><i class="fa-solid fa-gear"></i> Formatação De Computadores</li>
@@ -96,10 +98,12 @@
         </div>
     </section>
 
+    <!-- Line -->
     <section id="line">
         <div class="line-container"></div>
     </section>
 
+    <!-- Contact -->
     <section id="contact">
         <div class="contact-container">
             <h5>Estou Disponível Para Novos Projetos. Entre Em Contato E Vamos Conversar!</h5>
@@ -113,8 +117,10 @@
         </div>
     </section>
 
+    <!-- Button For Return Top -->
    <a href="#nav-bar"> <button id="bnt">Topo</button></a>
 
+   <!-- Footer -->
     <footer id="footer">
         <div class="footer-container">
             <p>&copy;2023 - Todos os Direitos Reservados - Gustavo Brendon</p>
@@ -123,8 +129,8 @@
   
 
 
-
-
+<!-- Scroll Reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
 <!-- FontAwesome -->
 <script src="https://kit.fontawesome.com/33fcf0d07e.js" crossorigin="anonymous"></script>
 <script src="scrip.js"></script>

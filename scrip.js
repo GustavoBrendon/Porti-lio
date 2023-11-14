@@ -77,3 +77,53 @@ function VoltaTítulo(){
     tittle.innerHTML = 'A Vila Do Pirata'
     tittle.style.color = 'black'
 }
+
+// Scroll Reveal 
+
+window.revelar = ScrollReveal({reset:true})
+
+// Header Container 
+
+revelar.reveal('.reveal-header', 
+{
+    duration: 2000,
+    distance: '90px'
+})
+
+revelar.reveal('.first-reveal', 
+{
+    duration: 2000,
+    distance: '90px',
+    delay: 500
+})
+
+revelar.reveal('.first-img-reveal', 
+{
+    duration: 2000,
+    distance: '90px',
+    delay: 500,
+    origin: 'right'
+})
+
+revelar.reveal('.second-reveal', 
+{
+    duration: 2000,
+    distance: '90px',
+    delay: 500
+})
+
+revelar.reveal('.second-img-reveal', 
+{
+    duration: 2000,
+    distance: '90px',
+    delay: 500,
+    origin: 'right'
+})
+
+revelar.reveal('.services-reveal', 
+{
+    duration: 2000,
+    distance: '90px',
+    delay: 500,
+    origin: 'left'
+})
