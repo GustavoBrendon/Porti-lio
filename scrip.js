@@ -127,3 +127,11 @@ revelar.reveal('.services-reveal',
     delay: 500,
     origin: 'left'
 })
+
+revelar.reveal('.contact-reveal', 
+{
+    duration: 2000,
+    distance: '90px',
+    delay: 500,
+    origin: 'top'
+})
