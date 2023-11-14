@@ -102,7 +102,7 @@ revelar.reveal('.first-img-reveal',
     duration: 2000,
     distance: '90px',
     delay: 500,
-    origin: 'right'
+    origin: 'top'
 })
 
 revelar.reveal('.second-reveal', 
@@ -117,7 +117,7 @@ revelar.reveal('.second-img-reveal',
     duration: 2000,
     distance: '90px',
     delay: 500,
-    origin: 'right'
+    origin: 'top'
 })
 
 revelar.reveal('.services-reveal', 
