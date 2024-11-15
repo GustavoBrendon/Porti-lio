@@ -22,7 +22,7 @@ body {
 
 /* Scroll Reveal */
 
-.reveal-header, .first-reveal, .first-img-reveal, .second-reveal, .second-img-reveal, .services-reveal, .contact-reveal {
+.reveal-header, .first-reveal, .first-img-reveal, .third-reveal, .third-img-reveal,.second-reveal, .second-img-reveal, .services-reveal, .contact-reveal {
     visibility: hidden;
 }
 
@@ -304,6 +304,48 @@ body {
     margin: 16px auto auto auto;
 }
 
+
+#projects3 {
+    width: 100%;
+    display: flex;
+}
+
+
+#third {
+    flex-direction: column;
+    width: 35%;
+    margin: 32px 40px 0 280px;
+}
+
+#third h3 {
+    width: 100%;
+    text-align: right;
+    margin: 0 auto 16px auto;
+}
+
+#third p {
+    text-align: justify;
+}
+
+#third-img img {
+    width: 320px;
+    margin: 100px 0 0 0 ;
+    border: 1px 1px 1px black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.529);
+    border-radius: 16px;
+    transition: width 0.5s ease-in-out;
+}
+
+#third a {
+    color: #9400D3;
+    text-shadow: 1px 1px 1px #9400D3;
+    text-decoration: none;
+}
+
+#third h5 {
+    margin: 16px auto auto auto;
+}
+
 #a {
     height: 100vh;
 }
@@ -543,6 +585,30 @@ body {
         margin: 32px auto;
    }
 
+   #projects3 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   }
+
+   #third h3 {
+    margin: 8px auto;
+   }
+
+   #third {
+    width: 80%;
+    margin: auto;
+   }
+
+   #third-img img {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 32px auto;
+   }
+
+
    #S-H2 {
     width: 80%;
     margin: 0;
@@ -650,6 +716,24 @@ body {
         margin: auto;
         justify-content: center;
     }
+
+    #projects3 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #third {
+        width: 70%;
+        margin: 32px auto;
+    }
+
+    #third-img img {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -707,6 +791,23 @@ body {
     }
 
     #second-img img {
+        display: flex;
+        margin: 32px auto;
+        justify-content: center;
+    }
+
+    #projects3 {
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #third {
+        width: 70%;
+        margin: auto;
+    }
+
+    #third-img img {
         display: flex;
         margin: 32px auto;
         justify-content: center;
@@ -773,6 +874,23 @@ body {
     }
 
     #second-img img {
+        display: flex;
+        margin: 32px auto;
+        justify-content: center;
+    }
+
+    #projects3 {
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #third {
+        width: 70%;
+        margin: auto;
+    }
+
+    #third-img img {
         display: flex;
         margin: 32px auto;
         justify-content: center;

@@ -61,6 +61,22 @@ function restaurarTamanhoOriginal2() {
     }
 }
 
+function ampliarImagem3() {
+    var larguraTela = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    if (larguraTela > 768){
+        var imagem2 = document.getElementById('third-img2');
+        imagem2.style.width = '400px';
+    }
+}
+
+function restaurarTamanhoOriginal3() {
+    var larguraTela = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    if (larguraTela > 768){
+        var imagem2 = document.getElementById('third-img2');
+        imagem2.style.width = '320px';
+    }
+}
+
 var tittle = document.getElementById('Tittle-SecondProject')
 var tittle = document.getElementById('Tittle-SecondProject')
 
@@ -119,6 +135,21 @@ revelar.reveal('.second-img-reveal',
     delay: 500,
     origin: 'top'
 })
+
+revelar.reveal('.third-reveal', 
+    {
+        duration: 2000,
+        distance: '90px',
+        delay: 500
+    })
+    
+    revelar.reveal('.third-img-reveal', 
+    {
+        duration: 2000,
+        distance: '90px',
+        delay: 500,
+        origin: 'top'
+    })
 
 revelar.reveal('.services-reveal', 
 {
