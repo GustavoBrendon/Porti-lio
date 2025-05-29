@@ -1,11 +1,22 @@
-<h1>Portifólio</h1>
+# 💼 Meu Portfólio
 
-<p>Seja bem-vindo ao meu portfólio, uma representação interativa e visualmente envolvente de quem eu sou, do que eu faço e do que sou capaz.
+Este repositório contém meu portfólio profissional, onde apresento meus projetos, habilidades e experiências desenvolvidas ao longo da minha jornada.
 
-Aqui, você encontrará uma seleção dos meus trabalhos, desde aplicações web dinâmicas até designs inovadores. Cada projeto é uma expressão da minha paixão pela tecnologia, do meu comprometimento com a excelência e da minha busca constante por aprendizado.
+## 🚀 Tecnologias Utilizadas
 
-Além de apresentar meu trabalho passado, meu portfólio destaca os serviços que ofereço. Seja desenvolvimento web, formatação de computadores, otimização de windows, T.I em geral, estou aqui para transformar ideias em realidade digital.
+- HTML5
+- CSS3
+- JavaScript
+- Frameworks e bibliotecas adicionais conforme necessário
 
-A comunicação é a chave para construir conexões significativas. Em meu portfólio, você encontrará informações detalhadas sobre como entrar em contato comigo. Seja para discutir uma colaboração, compartilhar ideias ou simplesmente trocar experiências, estou apenas a um clique de distância.
+## 📌 Objetivo
 
-Espero que você goste do meu portfólio e que ele inspire você a explorar seu próprio potencial criativo.</p>
+Mostrar de forma clara e organizada minhas competências, projetos e experiências profissionais, facilitando a apresentação para recrutadores, clientes e parceiros.
+
+## ⚙️ Como Utilizar
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/GustavoBrendon/Porti-lio.git
+   cd Porti-lio
